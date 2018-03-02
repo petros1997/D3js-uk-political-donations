@@ -26,7 +26,7 @@ li {
 }
 
 /* Initial appearance on load */
-#view-party-type, #view-donor-type, #view-source-type {
+#view-party-type, #view-donor-type, #view-source-type,  #view-amount-type {
     display: none;
 }
 
@@ -38,6 +38,40 @@ li {
 #view-party-type {
     left: 650px;
     width: 272px;
+}
+
+#view-amount-type {
+    height: 100%;
+}
+#To50000 {
+    left: 150px;
+    top: 465px;    
+    position: absolute;
+}
+#To100000 {
+    left: 425px;
+    top: 465px;
+    position: absolute;
+}
+#To500000 {
+    left: 700px;
+    top: 465px;
+    position: absolute;
+}
+#To1000000 {
+    left: 150px;
+    top: 100px;
+    position: absolute;    
+}
+#To5000000 {
+    left: 425px;
+    top: 100px;
+    position: absolute; 
+}
+#To20000000 {    
+    left: 700px;
+    top: 100px;
+    position: absolute;    
 }
 
 /*  Public or private funds view */
@@ -63,15 +97,15 @@ li {
 /*  Party view */
 #conservative, #labour, #libdem { padding: 10px; }
 #conservative {
-    background: rgba(8, 127, 189, 0.2);
+    background: rgb(191, 66, 129);
     top: 110px;
 }
 #labour {
-    background: rgba(240, 34, 51, 0.2);
+    background: rgb(63, 190, 63);
     top: 330px;
 }
 #libdem {
-    background: rgba(253, 187, 48, 0.2);
+    background: rgb(101, 36, 36);
     top: 550px;
 }
 
@@ -79,8 +113,7 @@ li {
 #view-donor-type {
     height: 100%;
     left: 500px;
-    width: 370px;
-    
+    width: 370px;    
 }
 #individual {
     top: 55px;
