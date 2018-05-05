@@ -385,7 +385,7 @@ function mouseover(d, i) {
   	image.src = "https://raw.githubusercontent.com/ioniodi/D3js-uk-political-donations/master/photos/" + donor + ".ico";
   	image.width = 42;
   	image.height = 42;
-	image.setAttribute('position', {x: 400, y: 700});
+	image.setAttribute('position', {x: 500, y: 5000});
 	
 	
 	// *******************************************
