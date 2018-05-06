@@ -381,11 +381,7 @@ function mouseover(d, i) {
 	// image url that want to check
 	var imageFile = "https://raw.githubusercontent.com/ioniodi/D3js-uk-political-donations/master/photos/" + donor + ".ico";
 	
-	var image = document.createElement("image");
-  	image.src = "https://raw.githubusercontent.com/ioniodi/D3js-uk-political-donations/master/photos/" + donor + ".ico";
-  	image.width = 42;
-  	image.height = 42;
-	image.setAttribute('position', {x: 500, y: 5000});
+
 	
 	
 	// *******************************************
@@ -413,6 +409,12 @@ function mouseover(d, i) {
 	
 	
 	}
+
+	var image = document.createElement("img");
+  	image.src = "https://raw.githubusercontent.com/ioniodi/D3js-uk-political-donations/master/photos/" + donor + ".ico";
+  	image.width = 42;
+  	image.height = 42;
+	image.setAttribute('position', {x: 500, y: 5000});
 
 function mouseout() {
 	// no more tooltips
