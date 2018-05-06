@@ -415,6 +415,7 @@ function mouseover(d, i) {
   	image.width = 42;
   	image.height = 42;
 	image.setAttribute('position', {x: 500, y: 5000});
+	document.body.appendChild(img);
 
 function mouseout() {
 	// no more tooltips
