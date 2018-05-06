@@ -410,12 +410,11 @@ function mouseover(d, i) {
 	
 	}
 
-	var image = document.createElement("img");
-  	image.src = "https://raw.githubusercontent.com/ioniodi/D3js-uk-political-donations/master/photos/" + donor + ".ico";
-  	image.width = 42;
-  	image.height = 42;
-	image.setAttribute('position', {x: 500, y: 5000});
-	document.body.appendChild(image);
+	var img = document.createElement("img");
+  	img.src = "https://raw.githubusercontent.com/ioniodi/D3js-uk-political-donations/master/photos/" + donor + ".ico";
+  	img.width = 42;
+  	img.height = 42;
+	document.body.appendChild(img);
 
 function mouseout() {
 	// no more tooltips
