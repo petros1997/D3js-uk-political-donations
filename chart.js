@@ -408,13 +408,14 @@ function mouseover(d, i) {
 	responsiveVoice.speak("The" + d.donor + "donated an amount of" + d.amount + "british pounds!");
 	
 	
-	}
-
 	var img = document.createElement("img");
   	img.src = imageFile;
   	img.width = 42;
   	img.height = 42;
 	document.body.appendChild(img);
+	
+	}
+
 
 function mouseout() {
 	// no more tooltips
